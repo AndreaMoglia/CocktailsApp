@@ -1,0 +1,72 @@
+.sectionTitle {
+  font-size: 1.5rem;
+  text-align: center;
+  color: #fff;
+  margin-top: 2rem;
+}
+
+.tableContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.switch {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  /* gap: 10px; */
+  /* background-color: gray; */
+  /* border-radius: 8px; */
+  /* padding: 4px; */
+
+}
+
+.containerSwitch {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background-color: gray;
+  border-radius: 8px;
+  padding: 4px;
+
+}
+
+.option svg {
+  fill: white;
+}
+
+.active>svg {
+  fill: blueviolet;
+  color: blueviolet !important;
+}
+
+.option {
+  /* padding: 4px 16px; */
+  padding: 4px;
+  cursor: pointer;
+  /* background-color: #fff; */
+
+  border-radius: 8px;
+  max-width: 30px;
+  transition: 0.25s ease-out;
+}
+
+.cocktailsCenter {
+  width: var(--smallWidth);
+  margin: 0 auto;
+  max-width: var(--fullWidth);
+  display: grid;
+  row-gap: 2rem;
+  margin-top: 4rem;
+  column-gap: 2rem;
+}
+
+@media screen and (min-width: 576px) {
+  .cocktailsCenter {
+    grid-template-columns: repeat(auto-fill, minmax(338.8px, 1fr));
+  }
+}

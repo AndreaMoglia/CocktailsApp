@@ -1,0 +1,45 @@
+.searchForm {
+  background-color: #000000;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.formDesign input {
+  width: 30%;
+  margin: 0 auto;
+  background-color: transparent;
+  transition: transform 250ms ease-in-out;
+  font-size: 14px;
+  line-height: 40px;
+  padding: 10px;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-size: 18px 18px;
+  background-position: 95% center;
+  border-radius: 50px;
+  border: 1px solid #575756;
+  transition: all 250ms ease-in-out;
+  backface-visibility: hidden;
+  transform-style: preserve-3d;
+  color: #fff;
+  padding-left: 20px;
+  font-size: 1rem;
+}
+
+.formDesign ::placeholder {
+  color: color(#575756 a(0.8));
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  padding-left: 5px;
+}
+
+.formDesign :hover,
+.formDesign :focus {
+  /* padding: 12px 0; */
+  outline: 0;
+  border: 1px solid transparent;
+  border-bottom: 1px solid #575756;
+  border-radius: 0;
+  background-position: 100% center;
+}

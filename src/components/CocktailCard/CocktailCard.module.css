@@ -1,0 +1,43 @@
+.cocktail {
+  color: blueviolet;
+  max-width: 300px;
+  margin: auto;
+}
+
+.cocktail img {
+  border-bottom-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+  border-top-right-radius: 8px;
+  border-top-left-radius: 8px;
+}
+
+.cocktail:hover img {
+  transform: scale(1.1);
+  transition: all .2s
+}
+
+.cocktailHeader {
+  text-align: center;
+}
+
+.containerImg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.containerImg svg {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width: 30px;
+  height: 30px;
+  fill: white;
+  overflow: visible;
+  padding: 3px;
+  background-color: blueviolet;
+  border-radius: 5px;
+}

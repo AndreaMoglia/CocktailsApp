@@ -1,0 +1,16 @@
+body {
+  background: #000000;
+  --maxWidth: 40rem;
+  padding-bottom: 20px;
+  margin: 0px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+  display: block;
+}

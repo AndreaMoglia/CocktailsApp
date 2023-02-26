@@ -1,0 +1,36 @@
+.navBar {
+    background-color: #1e1e1e;
+    border-bottom: 2px solid white;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.navItem a {
+    font-weight: bold;
+    color: white;
+}
+
+ul {
+    display: flex;
+    width: 100%;
+    gap: 20px;
+    list-style-type: none;
+}
+
+li {
+    padding: 5px;
+}
+
+
+li:hover {
+    color: #27262c !important;
+    animation: spring 300ms ease-out;
+    font-weight: bold;
+    border-radius: 8px;
+    background-color: blueviolet;
+}
+
+li:hover a {
+    color: black
+}
